@@ -5,10 +5,10 @@
 ## Simple Java application that returns a string
 
 ```java
-    @GetMapping("/")
-    public String home() {
-        return "Hello from " + id;
-    }
+@GetMapping("/")
+public String home() {
+    return "Hello from " + id;
+}
 ```
 
 ## Create a docker image for the application
@@ -16,10 +16,8 @@
 ```dockerfile
 FROM openjdk:17
 
-# Set the working directory
 WORKDIR /app
 
-# Copy the JAR file into the container
 COPY target/*.jar /app/myapp.jar
 
 EXPOSE 8080
