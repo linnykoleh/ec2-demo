@@ -56,6 +56,8 @@ docker run -t --rm -p 8080:8080 --name ec2-java-app linnikoleh/ec2-java-app:late
 
 ![5.png](images/5.png)
 
+![11.png](images/11.png)
+
 # Setup application load balancer and assign instances to it
 
 ## Setup the load balancer
