@@ -5,10 +5,10 @@
 ## Simple Java application that returns a string
 
 ```java
-    @GetMapping("/")
-    public String home() {
-        return "Hello from " + id;
-    }
+@GetMapping("/")
+public String home() {
+    return "Hello from " + id;
+}
 ```
 
 ## Create a docker image for the application
